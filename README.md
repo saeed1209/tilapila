@@ -1,10 +1,10 @@
-# Tilapila Project
+ Tilapila Project
 
 
-# install dependencies
+ install dependencies
  composer update
  
- # serve with hot reload at localhost:8000
+  serve with hot reload at localhost:8000
  php artisan serve
  
  
