@@ -1,10 +1,10 @@
  Tilapila Project
 
 
- install dependencies
+Install dependencies
  composer update
  
- serve with hot reload at localhost:8000
+Serve with hot reload at localhost:8000
  php artisan serve
  
  php version >= 7.2
