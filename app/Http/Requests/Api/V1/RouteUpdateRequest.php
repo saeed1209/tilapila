@@ -26,7 +26,6 @@ class RouteUpdateRequest extends FormRequest
     {
         $route_id = $this->route_id;
         $position = $this->position;
-        logger('message:',[request()->all()]);
         return [
             'route_id'=>'integer|in:' . implode(',', [1,2,3,4,5]),
             'delivery_id'=>'integer',

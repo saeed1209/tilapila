@@ -11,29 +11,8 @@
 </head>
 <body>
 <div id='app'>
-    <table class="table table-striped table-bordered">
-        <thead>
-        <tr>
-            <th>Id</th>
-            <th>title</th>
-            <th>date</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach($deliveries as $delivery)
-        <tr>
-            <td>{{ $delivery->id }}</td>
-            <td>{{ $delivery->title }}</td>
-            <td>{{ $delivery->date }}</td>
-
-        </tr>
-        @endforeach
-
-        </tbody>
-    </table>
+    <h1>Laravel</h1>
 <hr/>
-<h3>Create draggable</h3>
-<table-draggable :deliveries="{{ $deliveries }}"></table-draggable>
 </div>
 </body>
 <script src="{{asset('/js/app.js')}}" crossorigin="anonymous"></script>
